@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Cabin|Playfair+Display:700" rel="stylesheet">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.min.css">
+
+</head>
+
+<body>
+	<!-- Nav Bar -->
+	<nav id="navBar">
+		<H2>HackerYou</H2>
+
+		<ul class="navLinks">
+			<li><a href="">home</a></li>
+			<li><a href="">about</a></li>
+			<li><a href="">contact</a></li>
+			<li><a href="">bootcamp</a></li>
+			<li><a href="">part-time</a></li>
+		</ul>
+	</nav>
+	<!-- hero Image -->
+	<section class="hero" id="heroImage">
+		<div class="heroText">
+			<h2>Winter 2019 Tech Test</h2>
+			<p class="heroSubtext">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ex iste, quae ut quibusdam, quo voluptatibus sed
+				dignissimos amet aspernatur omnis labore facere cum asperiores minus veniam suscipit vero ipsum perspiciatis!
+				Doloremque ipsum doloribus at.
+			</p>
+		</div>
+	</section>
+
+	<!-- flickity box -->
+	<section class="slider" id="flickitySlider">
+		<h2>Welcome to HackerYou</h2>
+
+		<div class="flickity">
+			<img src="assets/image-2.jpg" alt="people coding">
+			<!-- put flickity slider in here -->
+		</div>
+		<div class="flickityText">
+			<h3>full-time web development immersive</h3>
+			<p>January 1st, 2019</p>
+		</div>
+
+	</section>
+
+	<!-- gallery section -->
+	<section id="gallery">
+		<div class="galleryBox" >
+			<div class="imageBox">
+				<img src="assets/image-3.jpg" alt="">  
+				<h2>Web Development</h2>
+				<P class="imageText">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deleniti cupiditate eaque facilis, id quisquam
+					nesciunt necessitatibus obcaecati. Atque ad minus aspernatur soluta.
+				</P>
+				<a href="readMore">Read More</a>
+				<!-- add hover state -->
+			</div>
+
+			<div class="imageBox">
+					<img src="assets/image-4.jpg" alt=""><!-- image goes here -->
+				<h2>Team Culture</h2>
+				<P class="imageText">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deleniti cupiditate eaque facilis, id quisquam
+					nesciunt necessitatibus obcaecati. Atque ad minus aspernatur soluta.
+				</P>
+				<a href="readMore">Read More</a>
+				<!-- add hover state -->
+			</div>
+
+			<div class="imageBox">
+					<img src="assets/image-5.jpg" alt=""><!-- image goes here -->
+				<h2>JavaScript</h2>
+				<P class="imageText">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deleniti cupiditate eaque facilis, id quisquam
+					nesciunt necessitatibus obcaecati. Atque ad minus aspernatur soluta.
+				</P>
+				<a href="readMore">Read More</a>
+				<!-- add hover state -->
+			</div>
+
+			<div class="imageBox">
+					<img src="assets/image-6.jpg" alt=""><!-- image goes here -->
+				<h2>Student Experience</h2>
+				<P class="imageText">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deleniti cupiditate eaque facilis, id quisquam
+					nesciunt necessitatibus obcaecati. Atque ad minus aspernatur soluta.
+				</P>
+				<a href="readMore">Read More</a>
+				<!-- add hover state -->
+			</div>
+		</div>
+
+	</section>
+
+	<section class="form" id="contactForm">
+		<p class="techText">HackerYou Tech Test</p>
+		<p class="techTestText">
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem impedit illum molestias nostrum hic.
+		</p>
+		<ul>
+			<li><a href="">home</a></li>
+			<li><a href="">about</a></li>
+			<li><a href="">contact</a></li>
+			<li><a href="">bootcamp</a></li>
+			<li><a href="">part-time</a></li>
+		</ul>
+		<form action="sendEmail.php" method="POST" name="myForm">
+			<p class="techText">Subscribe to our Newsletter</p>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+			<label for=""></label>
+			<input type="email" name="emailAddress" placeholder="email address">
+
+			<button>Subscribe</button>
+		</form>
+	</section>
+
+	<footer id="2colFooter">
+		<p>©2018 HackerYou</p>
+
+		<div class="icons">
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-facebook-f"></i>
+			<i class="fab fa-google-plus-g"></i>
+		</div>
+	</footer>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.1.2/flickity.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-smooth-scroll/2.1.2/jquery.smooth-scroll.min.js"></script>
+	<script>
+		$(function () {
+			$('.flickity').flickity({
+				wrapAround: true
+			});
+		});
+	</script>
+</body>
+
+</html>
