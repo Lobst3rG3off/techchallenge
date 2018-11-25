@@ -358,15 +358,44 @@ nav, section {
       flex-wrap: wrap;
 }
 
+#gallery h2 {
+  margin: 0;
+}
+
 .imageBox {
   border: 1px solid red;
   max-width: 50%;
   width: 50%;
   padding: 5% 10%;
+  position: relative;
 }
 
 .imageBox a {
   color: red;
+}
+
+.imageBoxbottom {
+  background: lightgray;
+  width: 388px;
+  height: 50%;
+  margin-top: -5px;
+  margin-bottom: -43px;
+  line-height: 1.5rem;
+}
+
+.dateBox {
+  border: 1px solid purple;
+  width: 5rem;
+  height: 1rem;
+  position: absolute;
+  top: 15.5rem;
+  right: 6rem;
+}
+
+.dateBox p {
+  border: 1px solid brown;
+  background: red;
+  color: white;
 }
 
 #contactForm {
@@ -399,8 +428,8 @@ nav, section {
   width: 33.33%;
 }
 
-#2colFooter {
-  width: 100%;
+.footerWrapper {
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -408,11 +437,13 @@ nav, section {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background: darkslategrey;
-}
-
-#2colFooter a {
+  background: #121414;
+  border: 1px solid orchid;
   color: white;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 @media only screen and (max-width: 768px) {
