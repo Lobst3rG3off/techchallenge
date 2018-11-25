@@ -343,10 +343,15 @@ nav, section {
   padding: 10px;
   line-height: 2rem;
   padding: 0 2rem;
+  display: inline-block;
 }
 
 #heroImage .heroText h2 {
   font-size: 2rem;
+}
+
+#heroImage .heroText p {
+  display: inline-block;
 }
 
 #flickitySlider h2 {
@@ -455,6 +460,10 @@ nav, section {
           justify-content: space-evenly;
 }
 
+#contactForm .formText {
+  margin: 0 auto;
+}
+
 #contactForm ul {
   width: 20.33%;
   list-style: none;
@@ -474,6 +483,10 @@ nav, section {
   width: 33.33%;
   color: white;
   border: 1px solid yellow;
+}
+
+#contactForm form input {
+  width: 100%;
 }
 
 #contactForm form button {
@@ -516,12 +529,36 @@ nav, section {
 }
 
 @media only screen and (max-width: 768px) {
+  #heroImage .heroText {
+    width: 35%;
+    height: 88%;
+    border: 1px solid blue;
+    background: white;
+    position: absolute;
+    top: 7%;
+    bottom: 0;
+    left: 19%;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+    line-height: 2rem;
+    padding: 0 2rem;
+    display: inline-block;
+  }
   #gallery .galleryBox {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     border: 1px solid green;
+    padding-bottom: 2rem;
+  }
+  #gallery .galleryBox .imageBox {
+    border: 1px solid red;
+    max-width: 50%;
+    width: 50%;
+    padding: 5% 26%;
+    position: relative;
   }
   #gallery .galleryBox .dateBox {
     border: 1px solid purple;
@@ -529,7 +566,51 @@ nav, section {
     height: 1rem;
     position: absolute;
     top: 14.5rem;
-    right: -3rem;
+    right: -11rem;
+  }
+  #contactForm .formWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: column;
+    -webkit-box-pack: space-evenly;
+    -ms-flex-pack: space-evenly;
+    justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-top: 1rem;
+  }
+  #contactForm .formWrapper ul {
+    width: 20.33%;
+    list-style: none;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid yellow;
+    padding-left: 0px;
+  }
+  #contactForm .formWrapper .techBox {
+    width: 33.3%;
+    border: 1px solid yellow;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    padding-left: 25px;
+  }
+  #contactForm .formWrapper .formText {
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  #contactForm .formWrapper button {
+    background: red;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 10px 7px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
