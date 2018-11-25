@@ -267,6 +267,7 @@ h2{
             justify-content: center;
             height: 1rem;
             margin-top: 1rem;
+            letter-spacing: 0.25rem;
         }
     }
 
@@ -282,14 +283,15 @@ h2{
             .galleryBox {
                 flex-direction: column;
                 border: 1px solid green;
-                    .dateBox {
-                        border: 1px solid purple;
-                        width: 5rem;
-                        height: 1rem;
-                        position: absolute;
-                        top: 13.5rem;
-                        right: -12rem;
-                    }     
+                
+                .dateBox {
+                    border: 1px solid purple;
+                    width: 5rem;
+                    height: 1rem;
+                    position: absolute;
+                    top: 14.5rem;
+                    right: -3rem;
+                }
             }
         }
 }
