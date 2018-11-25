@@ -406,26 +406,48 @@ nav, section {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  background: lightslategray;
+  background: #4a5057;
 }
 
 #contactForm .techText {
   text-transform: uppercase;
 }
 
-#contactForm techBox {
+#contactForm .techBox {
   width: 33.3%;
+  border: 1px solid yellow;
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  padding-left: 15px;
 }
 
 #contactForm ul {
-  width: 33.33%;
+  width: 20.33%;
   list-style: none;
   text-decoration: none;
   text-transform: uppercase;
+  border: 1px solid yellow;
+  padding-left: 120px;
+}
+
+#contactForm ul a {
+  color: white;
+  letter-spacing: 1px;
 }
 
 #contactForm form {
   width: 33.33%;
+  color: white;
+  border: 1px solid yellow;
+}
+
+#contactForm form button {
+  background: red;
+  font-family: 'Cabin', sans-serif;
+  color: white;
+  text-transform: uppercase;
+  width: 25%;
+  padding: 10px 5px;
 }
 
 .footerWrapper {
