@@ -286,24 +286,15 @@ nav, section {
 }
 
 #navBar .navLinks .dropMenu {
-  visibility: hidden;
   opacity: 0;
-  position: absolute;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   margin-top: 1rem;
-  left: 0;
   display: none;
 }
 
 #navBar .navLinks:hover {
   display: inline-block;
-}
-
-#navBar .navLinks ul li:hover > ul, #navBar .navLinks ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
 }
 
 #heroImage {
