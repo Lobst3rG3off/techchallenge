@@ -3,7 +3,10 @@
 // global settings
 
 body{
-
+    .wrapper {
+        max-width: 1140px;
+        margin: 0 auto;
+    }
 }
 h2{
     font-family: 'Playfair Display', serif;
@@ -13,6 +16,12 @@ p{
     font-family: 'Cabin', sans-serif;
 }
 
+a {
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    color: white;  
+}
 
 
 nav, section {
@@ -88,20 +97,66 @@ background: white;
 
     #gallery {
         .galleryBox {
+            width: 100%;
+            max-width: 100%;
             display: flex;
+            flex-direction: row;
         }
         
     }
 
     .imageBox{
         border: 1px solid red;
+        max-width: 50%;
+        width: 50%;
+        padding: 5% 10%;
+        a {
+            color: red;
+        }
     }
 
     #contactForm{
-
+        display: flex;
+        flex-direction: row;
+        background: lightslategray;
+        .techText {
+            text-transform: uppercase; 
+        }
+         techBox{
+                width: 33.3%;
+            }
+        ul{ 
+            width: 33.33%;
+            list-style: none;
+            text-decoration: none;
+            text-transform: uppercase;
+            }    
+        form {
+            width: 33.33%;
+            
+        }
     }
 
     #2colFooter{
-
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        background: darkslategrey;
     }
 
+
+
+    /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}

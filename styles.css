@@ -216,12 +216,24 @@ template {
   box-sizing: border-box;
 }
 
+body .wrapper {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 h2 {
   font-family: 'Playfair Display', serif;
 }
 
 p {
   font-family: 'Cabin', sans-serif;
+}
+
+a {
+  font-family: 'Cabin', sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  color: white;
 }
 
 nav, section {
@@ -296,12 +308,67 @@ nav, section {
 }
 
 #gallery .galleryBox {
+  width: 100%;
+  max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .imageBox {
   border: 1px solid red;
+  max-width: 50%;
+  width: 50%;
+  padding: 5% 10%;
+}
+
+.imageBox a {
+  color: red;
+}
+
+#contactForm {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: lightslategray;
+}
+
+#contactForm .techText {
+  text-transform: uppercase;
+}
+
+#contactForm techBox {
+  width: 33.3%;
+}
+
+#contactForm ul {
+  width: 33.33%;
+  list-style: none;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+#contactForm form {
+  width: 33.33%;
+}
+
+#2colFooter {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: darkslategrey;
 }
 /*# sourceMappingURL=styles.css.map */
