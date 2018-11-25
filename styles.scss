@@ -31,6 +31,25 @@ nav, section {
     display: none;
 }
 
+.flickity-prev-next-button {
+    position: absolute;
+    top: 50%;
+    width: 9rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    background: #fff;
+    background: hsla(0,0%,100%,.75);
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: 1;
+}
+.flickity-prev-next-button .arrow {
+    fill: black;
+}
+
 // sections
 
 #navBar {
@@ -88,7 +107,7 @@ h2{
         position: relative;
             .heroText{
                 width: 35%;
-                height: 46%;
+                height: 48%;
                 border: 1px solid blue;
                 background: white;
                 position: absolute;
@@ -98,7 +117,11 @@ h2{
                 right: 0;
                 text-align: center;
                 padding: 10px;
-
+                line-height: 2rem;
+                padding: 0 2rem;
+                h2 {
+                    font-size: 2rem;
+                }
             }
             }
         
@@ -110,6 +133,7 @@ h2{
     #flickitySlider{
         h2 {
             text-align:center; 
+            font-size: 2rem;
         }
         .flickityText{
             text-align: center;
@@ -138,7 +162,8 @@ h2{
             flex-wrap: wrap;
         }
         h2 {
-            margin:0;
+            margin:0;    
+            padding: 1rem 0;
         }
         
     }
@@ -157,10 +182,11 @@ h2{
     .imageBoxbottom {
         background: lightgray;
         width: 388px;
-        height: 50%;
-        margin-top: -5px;
-        margin-bottom: -43px;
+        height: 58%;
+        margin-top: -7px;
+        margin-bottom: -40px;
         line-height: 1.5rem;
+        padding: 1rem;
     }
 
     .dateBox {
@@ -179,8 +205,7 @@ h2{
 
     // contact form
     #contactForm{
-        display: flex;
-        flex-direction: row;
+        
         background: rgb(74, 80, 87);
         .techText {
             text-transform: uppercase; 
@@ -190,16 +215,22 @@ h2{
                 border: 1px solid yellow;
                 font-family: 'Cabin', sans-serif;
                 color: white;
-                padding-left: 15px;
+                padding-left: 75px;
 
+            }
+            .formWrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
             }
         ul{ 
             width: 20.33%;
             list-style: none;
             text-decoration: none;
+            font-size: 14px;
             text-transform: uppercase;
             border: 1px solid yellow;
-            padding-left: 120px;
+            padding-left: 44px;
             a {
                 color: white;
                 letter-spacing: 1px;
@@ -231,9 +262,13 @@ h2{
         color: white;
         justify-content: space-around;
         align-content: center;
+            .icons {
+            align-items: center;
+            justify-content: center;
+            height: 1rem;
+            margin-top: 1rem;
+        }
     }
-            
-
 
 
 //     /* Extra small devices (phones, 600px and down) */
@@ -243,13 +278,18 @@ h2{
 
 // /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
-    #gallery {
-    .galleryBox {
-        flex-direction: column;
-        border: 1px solid green;
+        #gallery {
+            .galleryBox {
+                flex-direction: column;
+                border: 1px solid green;
+                    .dateBox {
+                        border: 1px solid purple;
+                        width: 5rem;
+                        height: 1rem;
+                        position: absolute;
+                        top: 13.5rem;
+                        right: -12rem;
+                    }     
             }
         }
-    } 
-
-
-
+}

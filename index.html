@@ -99,9 +99,10 @@
 					</div> 
 				<div class="imageBoxbottom">
 					<h2>JavaScript</h2>
+					<p>
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque deleniti cupiditate eaque facilis, id quisquam
 						nesciunt necessitatibus obcaecati. Atque ad minus aspernatur soluta.
-					</P>
+					</p>
 					<a class="readMore" href="readMore">Read More</a>
 				</div>
 			</div>
@@ -124,6 +125,7 @@
 	</section>
 
 	<section class="form" id="contactForm">
+		<div class="formWrapper">
 		<div class="techBox">
 			<p class="techText">HackerYou Tech Test</p>
 			<p class="techTestText">
@@ -137,14 +139,15 @@
 			<li><a href="">bootcamp</a></li>
 			<li><a href="">part-time</a></li>
 		</ul>
-		<form action="sendEmail.php" method="POST" name="myForm">
-			<p class="techText">Subscribe to our Newsletter</p>
-			<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-			<label for=""></label>
-			<input type="email" name="emailAddress" placeholder="email address">
+			<form action="sendEmail.php" method="POST" name="myForm">
+				<p class="techText">Subscribe to our Newsletter</p>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+				<label for=""></label>
+				<input type="email" name="emailAddress" placeholder="email address">
 
-			<button>Subscribe</button>
-		</form>
+				<button>Subscribe</button>
+			</form>
+		</div>
 	</section>
 
 	<footer id="2colFooter">
@@ -169,6 +172,7 @@
 		$(function () {
 			$('.flickity').flickity({
 				wrapAround: true
+				
 			});
 		});
 	</script>
