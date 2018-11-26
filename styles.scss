@@ -235,7 +235,7 @@ h2{
             }
             }    
         form {
-            width: 33.33%;
+            width: 100%;
             color: white;
             border: 1px solid yellow;
 
@@ -272,38 +272,6 @@ h2{
             letter-spacing: 0.25rem;
         }
     }
-
-
-//     /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 420px) {
-    .wrapper {
-        max-width: 420px;
-        margin: 0 auto;
-    }
-
-    #gallery .galleryBox {
-     .imageBox {
-            border: 1px solid red;
-            max-width: 50%;
-            width: 50%;
-            padding: 5% 1%;
-            position: relative;
-        }
-    .dateBox {
-        border: 1px solid purple;
-        width: 5rem;
-        height: 1rem;
-        position: absolute;
-        top: 13rem;
-        right: -9rem;
-    }
-}
-
-
-}
-
-
-
 // /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
     .wrapper {
@@ -405,4 +373,72 @@ h2{
 
         }
          
+}
+
+//     /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 420px) {
+    .wrapper {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    #heroImage { 
+    .heroText {
+        width: 35%;
+        height: 82%;
+        border: 1px solid blue;
+        background: white;
+        position: absolute;
+        top: 16%;
+        bottom: 0;
+        left: 19%;
+        right: 0;
+        text-align: center;
+        padding: 10px;
+        line-height: 0.85rem;
+        padding: 0 2rem;
+        display: inline-block;
+        h2 {
+            padding: 1rem;
+            text-align: center;
+            font-size: 1rem;
+            margin: 0%;
+        }
+    }
+    
+}
+
+    #gallery .galleryBox {
+     .imageBox {
+            border: 1px solid red;
+            max-width: 50%;
+            width: 50%;
+            padding: 5% 1%;
+            position: relative;
+        }
+        .dateBox {
+            border: 1px solid purple;
+            width: 5rem;
+            height: 1rem;
+            position: absolute;
+            top: 13.5rem;
+            right: -10rem;
+        }
+}
+#contactForm {
+.formWrapper {
+.techBox {
+    width: 100%;
+    border: 1px solid yellow;
+    font-family: 'Cabin', sans-serif;
+    color: white;
+    padding-left: 25px;
+                }
+            .formText {
+                    margin: 0 auto;
+                    padding: 1rem;
+                    width: 100%;
+             }
+            }
+        }
 }
