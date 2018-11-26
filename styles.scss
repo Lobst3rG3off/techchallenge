@@ -284,12 +284,33 @@ h2{
 
 
 //     /* Extra small devices (phones, 600px and down) */
-// @media only screen and (max-width: 600px) 
+@media only screen and (max-width: 420px) {
+    .wrapper {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    #gallery .galleryBox .dateBox {
+        border: 1px solid purple;
+        width: 5rem;
+        height: 1rem;
+        position: absolute;
+        top: 13rem;
+        right: -9rem;
+    }
+
+
+}
 
 
 
 // /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 786px;
+        margin: 0 auto;
+    }
+
 
     #heroImage .heroText {
         width: 35%;
