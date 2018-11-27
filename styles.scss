@@ -1,18 +1,19 @@
-@import "normalize"; 
+@import "normalize";
 
 // global settings
 
-body{
+body {
     .wrapper {
         max-width: 1140px;
         margin: 0 auto;
     }
 }
-h2{
+
+h2 {
     font-family: 'Playfair Display', serif;
 }
 
-p{
+p {
     font-family: 'Cabin', sans-serif;
 }
 
@@ -23,9 +24,8 @@ a {
 }
 
 
-nav, section {
-    
-}
+nav,
+section {}
 
 .flickity-page-dots .dot.is-selected {
     display: none;
@@ -39,13 +39,14 @@ nav, section {
     border: none;
     border-radius: 50%;
     background: #fff;
-    background: hsla(0,0%,100%,.75);
+    background: hsla(0, 0%, 100%, .75);
     cursor: pointer;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     opacity: 1;
 }
+
 .flickity-prev-next-button .arrow {
     fill: black;
 }
@@ -54,242 +55,262 @@ nav, section {
 
 #navBar {
 
-width: 100%;
-height: 10vh;
-display: flex;
-flex-flow: row wrap;
-justify-content: space-around;
-background: white;
-    
-h2{
-    align-items: flex-start;
-    align-content: center;
-    justify-content: center;
-    margin: 0.5rem;
-}
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background: white;
 
-        .navLinks {
-            display: flex;
-            flex-direction: row;
-            text-decoration: none;
-            text-transform: uppercase;
-            list-style: none;
-            
-            a {     
-                color: black;
-                padding: 10px;
-                
-            }
-        }  
-    } 
+    h2 {
+        align-items: flex-start;
+        align-content: center;
+        justify-content: center;
+        margin: 0.5rem;
+    }
+
+    .navLinks {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        text-transform: uppercase;
+        list-style: none;
+
+        a {
+            color: black;
+            padding: 10px;
+
+        }
+    }
+}
 
 // hero image
-#heroImage{
-    
+#heroImage {
+
+    width: 100%;
+    height: 90vh;
+
+    img {
         width: 100%;
+        max-width: 100%;
+        max-height: 100%;
         height: 90vh;
-        img {
-            width: 100%;
-            max-width: 100%;
-            max-height: 100%;
-            height: 90vh;
+    }
+
+    .heroText {
+        width: 33%;
+        height: 50%;
+        background: white;
+        position: absolute;
+        top: 29%;
+        bottom: 0;
+        left: 14%;
+        right: 0;
+        line-height: 2rem;
+        padding: 0px 1rem;
+        display: inline-block;
+
+        .heroTextbox {
+            margin: 0 auto;
+            width: 79%;
         }
-        .heroText {
-            width: 33%;
-            height: 50%;
-            background: white;
-            position: absolute;
-            top: 29%;
-            bottom: 0;
-            left: 14%;
-            right: 0;
-            line-height: 2rem;
-            padding: 0px 1rem;
-            display: inline-block;
-        
-            .heroTextbox{
-                margin: 0 auto;
-                 width: 79%;
+    }
 }
-            }
-        }
-        h2 {  
-            text-align: left;
-            font-size: 2rem; 
-        }
-                
-                p {
-                    text-align: left;
-                }
-            
-    
+
+h2 {
+    text-align: left;
+    font-size: 2rem;
+}
+
+p {
+    text-align: left;
+}
+
+
 
 
 // flickity gallery
 
-    #flickitySlider{
-        h2 {
-            text-align:center; 
-            font-size: 2rem;
-        }
-        .flickityText{
-            text-align: center;
+#flickitySlider {
+    h2 {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .flickityText {
+        text-align: center;
+
         h3 {
             font-family: 'Cabin', sans-serif;
             text-transform: uppercase;
             font-size: 1rem;
 
         }
+
         p {
             font-family: 'Playfair Display', serif;
             font-style: italic;
             font-weight: 50;
             text-align: center;
-            
+
         }
-        }
-        
     }
+
+}
+
 // gallery section
 
-    #gallery {
-        .galleryBox {
-            width: 100%;
-            max-width: 100%;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-        }
-        h2 {
-            margin:0;    
-            padding: 1rem 0;
-        }
-        
+#gallery {
+    .galleryBox {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
-    .imageBox{
-         
-        max-width: 50%;
-        width: 50%;
-        padding: 5% 10%;
-        position: relative;
-        a {
-            color: red;
-        }
+    h2 {
+        margin: 0;
+        padding: 1rem 0;
     }
 
-    .imageBoxbottom {
-        background: lightgray;
-        width: 388px;
-        height: 58%;
-        margin-top: -7px;
-        margin-bottom: -40px;
-        line-height: 1.5rem;
-        padding: 1rem;
-    }
+}
 
-    .dateBox {
-         
-      width: 5rem; 
-      height: 1rem;
-      position: absolute;
-      top: 15.5rem;
+.imageBox {
+
+    max-width: 50%;
+    width: 50%;
+    padding: 5% 10%;
+    position: relative;
+
+    a {
+        color: red;
+    }
+}
+
+.imageBoxbottom {
+    background: lightgray;
+    width: 388px;
+    height: 58%;
+    margin-top: -7px;
+    margin-bottom: -40px;
+    line-height: 1.5rem;
+    padding: 1rem;
+}
+
+.dateBox {
+
+    width: 5rem;
+    height: 1rem;
+    position: absolute;
+    top: 15.5rem;
     right: 6rem;
-        p {
-            
-            background: red;
+
+    p {
+
+        background: red;
+        color: white;
+    }
+}
+
+// contact form
+#contactForm {
+
+    background: rgb(74, 80, 87);
+
+    .techText {
+        text-transform: uppercase;
+        color: white;
+    }
+
+    .techTextunder {
+        color: white;
+    }
+
+    .techBox {
+        width: 33.3%;
+        font-family: 'Cabin', sans-serif;
+        color: white;
+        padding-left: -4px;
+    }
+
+    .formWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .formText {
+        margin: 0 auto;
+    }
+
+    ul {
+        width: 20.33%;
+        list-style: none;
+        text-decoration: none;
+        font-size: 14px;
+        text-transform: uppercase;
+
+        padding-left: 44px;
+
+        a {
+            color: white;
+            letter-spacing: 1px;
+        }
+
+        .columnTop {
             color: white;
         }
     }
 
-    // contact form
-    #contactForm{
-        
-        background: rgb(74, 80, 87);
-        .techText {
-            text-transform: uppercase;
-            color: white; 
-        }
-        .techTextunder {
-            color: white; 
-        }
-         .techBox{
-                width: 33.3%;
-               
-                font-family: 'Cabin', sans-serif;
-                color: white;
-                padding-left: 75px;
+    form {
+        width: 33.33%;
+        color: white;
 
-            }
-            .formWrapper {
-                display: flex;
-                flex-direction: row;
-                justify-content: space-evenly;
-            }
-            .formText {
-                margin: 0 auto;
-            }
-        ul{ 
-            width: 20.33%;
-            list-style: none;
-            text-decoration: none;
-            font-size: 14px;
-            text-transform: uppercase;
-            
-            padding-left: 44px;
-            a {
-                color: white;
-                letter-spacing: 1px;
-            }
-            .columnTop{
-                color:white;
-            }
-            }    
-        form {
-            width: 33.33%;
-            color: white;
-        
 
         input {
             width: 100%;
         }
-            button {
-                background: red;
-                font-family: 'Cabin', sans-serif;
-                color: white;
-                text-transform: uppercase;
-                width: 25%;
-                padding: 10px 5px;
-            }
-            
-        }
-    }
 
-  
-            .footerWrapper{
-        max-width: 100%;
-        display: flex;
-        flex-direction: row;
-        background: rgb(18, 20, 20);
-       
-        color: white;
-        justify-content: space-around;
-        align-content: center;
-            .icons {
-            align-items: center;
-            justify-content: center;
-            height: 1rem;
-            margin-top: 1rem;
-            letter-spacing: 0.25rem;
+        button {
+            background: red;
+            font-family: 'Cabin', sans-serif;
+            color: white;
+            text-transform: uppercase;
+            width: 25%;
+            padding: 10px 5px;
         }
+
     }
+}
+
+
+.footerWrapper {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    background: rgb(18, 20, 20);
+
+    color: white;
+    justify-content: space-around;
+    align-content: center;
+
+    .icons {
+        align-items: center;
+        justify-content: center;
+        height: 1rem;
+        margin-top: 1rem;
+        letter-spacing: 0.25rem;
+    }
+}
+
 // // /* Medium devices (landscape tablets, 768px and up) */
 // @media only screen and (max-width: 768px) {
 //     .wrapper {
 //         max-width: 786px;
 //         margin: 0 auto;
 //     }
-    
+
 
 
 //     #heroImage .heroText {
@@ -383,7 +404,7 @@ h2{
 //             }
 
 //         }
-         
+
 // }
 
 // //     /* Extra small devices (phones, 600px and down) */
@@ -416,7 +437,7 @@ h2{
 //             margin: 0%;
 //         }
 //     }
-    
+
 // }
 
 //     #gallery .galleryBox {

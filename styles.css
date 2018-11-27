@@ -435,7 +435,7 @@ p {
   width: 33.3%;
   font-family: 'Cabin', sans-serif;
   color: white;
-  padding-left: 75px;
+  padding-left: -4px;
 }
 
 #contactForm .formWrapper {
