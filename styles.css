@@ -449,10 +449,7 @@ p {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-}
-
-#contactForm .formText {
-  margin: 0 auto;
+  height: 11rem;
 }
 
 #contactForm ul {
@@ -473,12 +470,16 @@ p {
 }
 
 form {
-  width: 33.33%;
   color: white;
 }
 
 form input {
-  width: 100%;
+  width: 62%;
+  float: left;
+  height: 42px;
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  background: #4a5057;
 }
 
 form button {
@@ -486,8 +487,11 @@ form button {
   font-family: 'Cabin', sans-serif;
   color: white;
   text-transform: uppercase;
-  width: 25%;
+  width: 37%;
   padding: 10px 5px;
+  display: block;
+  float: left;
+  margin-left: 3px;
 }
 
 .footerWrapper {
@@ -501,10 +505,15 @@ form button {
           flex-direction: row;
   background: #121414;
   color: white;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+.footerWrapper .copyright {
+  margin-left: 7rem;
 }
 
 .footerWrapper .icons {
@@ -517,5 +526,6 @@ form button {
   height: 1rem;
   margin-top: 1rem;
   letter-spacing: 0.25rem;
+  margin-right: 8rem;
 }
 /*# sourceMappingURL=styles.css.map */
