@@ -419,30 +419,29 @@ form {
         max-width: 420px;
         margin: 0 auto;
     }
-
-    
+    #navBar {
+        height: 20vh;
+    }
+    .navLinks {
+        flex-direction: column;
+    }
 
     #heroImage { 
     .heroText {
-        width: 35%;
-        height: 82%;
-   
+        width: 74%;
+        height: 61%;
         background: white;
         position: absolute;
-        top: 16%;
+        top: 33%;
         bottom: 0;
-        left: 19%;
+        left: 15%;
         right: 0;
         text-align: center;
-        padding: 10px;
-        line-height: 0.85rem;
+        line-height: 1.85rem;
         padding: 0 2rem;
-        display: inline-block;
         h2 {
-            padding: 1rem;
             text-align: center;
-            font-size: 1rem;
-            margin: 0%;
+            font-size: 96%;
         }
     }
 
