@@ -316,29 +316,31 @@ a {
 }
 
 #heroImage .heroText {
-  width: 40%;
-  height: 48%;
+  width: 33%;
+  height: 50%;
   background: white;
   position: absolute;
   top: 29%;
   bottom: 0;
-  left: 19%;
+  left: 14%;
   right: 0;
-  text-align: center;
   line-height: 2rem;
   padding: 0px 1rem;
   display: inline-block;
 }
 
-#heroImage h2 {
-  padding: 6rem;
-  text-align: center;
+#heroImage .heroText .heroTextbox {
+  margin: 0 auto;
+  width: 79%;
+}
+
+h2 {
+  text-align: left;
   font-size: 2rem;
-  margin: -4%;
 }
 
 p {
-  display: inline-block;
+  text-align: left;
 }
 
 #flickitySlider h2 {
@@ -360,6 +362,7 @@ p {
   font-family: 'Playfair Display', serif;
   font-style: italic;
   font-weight: 50;
+  text-align: center;
 }
 
 #gallery .galleryBox {
@@ -421,6 +424,11 @@ p {
 
 #contactForm .techText {
   text-transform: uppercase;
+  color: white;
+}
+
+#contactForm .techTextunder {
+  color: white;
 }
 
 #contactForm .techBox {
@@ -461,8 +469,12 @@ p {
   letter-spacing: 1px;
 }
 
+#contactForm ul .columnTop {
+  color: white;
+}
+
 #contactForm form {
-  width: 100%;
+  width: 33.33%;
   color: white;
 }
 

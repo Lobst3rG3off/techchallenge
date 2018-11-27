@@ -95,29 +95,31 @@ h2{
             height: 90vh;
         }
         .heroText {
-            width: 40%;
-            height: 48%;
-             
+            width: 33%;
+            height: 50%;
             background: white;
             position: absolute;
             top: 29%;
             bottom: 0;
-            left: 19%;
+            left: 14%;
             right: 0;
-            text-align: center;
             line-height: 2rem;
             padding: 0px 1rem;
             display: inline-block;
+        
+            .heroTextbox{
+                margin: 0 auto;
+                 width: 79%;
+}
+            }
         }
-                h2 {
-                    padding: 6rem;
-                    text-align: center;
-                    font-size: 2rem;
-                    margin: -4%;
-                }
-                }
-                p{
-                    display: inline-block;
+        h2 {  
+            text-align: left;
+            font-size: 2rem; 
+        }
+                
+                p {
+                    text-align: left;
                 }
             
     
@@ -142,6 +144,8 @@ h2{
             font-family: 'Playfair Display', serif;
             font-style: italic;
             font-weight: 50;
+            text-align: center;
+            
         }
         }
         
@@ -203,7 +207,11 @@ h2{
         
         background: rgb(74, 80, 87);
         .techText {
-            text-transform: uppercase; 
+            text-transform: uppercase;
+            color: white; 
+        }
+        .techTextunder {
+            color: white; 
         }
          .techBox{
                 width: 33.3%;
@@ -233,9 +241,12 @@ h2{
                 color: white;
                 letter-spacing: 1px;
             }
+            .columnTop{
+                color:white;
+            }
             }    
         form {
-            width: 100%;
+            width: 33.33%;
             color: white;
         
 
