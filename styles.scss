@@ -289,6 +289,7 @@ form {
     color: white;
     justify-content: space-between;
     align-content: center;
+
     .copyright {
         margin-left: 7rem;
     }
@@ -313,19 +314,20 @@ form {
 
 
     #heroImage .heroText {
-    width: 35%;
-    height: 63%;
-    background: white;
-    position: absolute;
-    top: 16%;
-    bottom: 0;
-    left: 19%;
-    right: 0;
-    text-align: center;
-    padding: 10px;
-    line-height: 2rem;
-    padding: 0 2rem;
-    display: inline-block;
+        width: 35%;
+        height: 63%;
+        background: white;
+        position: absolute;
+        top: 16%;
+        bottom: 0;
+        left: 19%;
+        right: 0;
+        text-align: center;
+        padding: 10px;
+        line-height: 2rem;
+        padding: 0 2rem;
+        display: inline-block;
+
         h2 {
             padding: 1rem;
             text-align: center;
@@ -334,79 +336,86 @@ form {
         }
     }
 
-        #gallery {
-            .galleryBox {
-                flex-direction: column;
-            
-                padding-bottom: 2rem;
-
-                .imageBox {
-              
-                    max-width: 50%;
-                    width: 50%;
-                    padding: 5% 26%;
-                    position: relative;
-                }
-
-                .dateBox {
-     
-                    width: 5rem;
-                    height: 1rem;
-                    position: absolute;
-                    top: 14.5rem;
-                    right: -11rem;
-                }
-            }
-        }
-
-        #contactForm .formWrapper {
-            display: flex;
+    #gallery {
+        .galleryBox {
             flex-direction: column;
-            justify-content: space-evenly;
-            align-items: center;
-            height: 38rem;
-             ul {
-                width: 20.33%;
-                list-style: none;
-                text-decoration: none;
-                font-size: 14px;
-                text-transform: uppercase;
 
-                padding-left: 0px;
+            padding-bottom: 2rem;
+
+            .imageBox {
+
+                max-width: 50%;
+                width: 50%;
+                padding: 5% 26%;
+                position: relative;
             }
+
+            .dateBox {
+
+                width: 5rem;
+                height: 1rem;
+                position: absolute;
+                top: 14.5rem;
+                right: -11rem;
+            }
+        }
+    }
+
+    #contactForm .formWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 38rem;
+
+        ul {
+            width: 20.33%;
+            list-style: none;
+            text-decoration: none;
+            font-size: 14px;
+            text-transform: uppercase;
+
+            padding-left: 0px;
+        }
+
         .techBox {
-                width: 33.3%;
- 
-                font-family: 'Cabin', sans-serif;
-                color: white;
-                padding-left: 25px;
-            }
-         .formText {
-                margin: 0 auto;
-                padding: 1rem;
-                .formLinks {
-                    line-height: 1rem;
-                }
-                
-            }
-            .techText {
-                text-transform: uppercase;
-                color: white;
-                text-align: center;
-            }
-             input {
-                width: 100%;
-            }
-            button {
-                background: red;
-                font-family: 'Cabin', sans-serif;
-                color: white;
-                text-transform: uppercase;
-                width: 100%;
-                padding: 10px 7px;
+            width: 33.3%;
+
+            font-family: 'Cabin', sans-serif;
+            color: white;
+            padding-left: 25px;
+        }
+
+        .formText {
+            margin: 0 auto;
+            padding: 1rem;
+
+            .formLinks {
+                line-height: 1rem;
             }
 
         }
+
+        .techText {
+            text-transform: uppercase;
+            color: white;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+        }
+
+        button {
+            background: red;
+            font-family: 'Cabin', sans-serif;
+            color: white;
+            text-transform: uppercase;
+            width: 100%;
+            padding: 10px 7px;
+        }
+
+    }
 
 }
 
@@ -416,43 +425,47 @@ form {
         max-width: 420px;
         margin: 0 auto;
     }
+
     #navBar {
         height: 20vh;
     }
+
     .navLinks {
         flex-direction: column;
         padding: 0;
     }
 
-    #heroImage { 
-    .heroText {
-        width: 74%;
-        height: 61%;
-        background: white;
-        position: absolute;
-        top: 33%;
-        bottom: 0;
-        left: 15%;
-        right: 0;
-        text-align: center;
-        line-height: 1.85rem;
-        padding: 0 2rem;
-        h2 {
+    #heroImage {
+        .heroText {
+            width: 74%;
+            height: 61%;
+            background: white;
+            position: absolute;
+            top: 33%;
+            bottom: 0;
+            left: 15%;
+            right: 0;
             text-align: center;
-            font-size: 96%;
+            line-height: 1.85rem;
+            padding: 0 2rem;
+
+            h2 {
+                text-align: center;
+                font-size: 96%;
+            }
         }
+
     }
 
-}
-
     #gallery .galleryBox {
-     .imageBox {
-  
+        .imageBox {
+
             max-width: 50%;
             width: 50%;
             padding: 5% 3%;
             position: relative;
         }
+
         .dateBox {
 
             width: 5rem;
@@ -461,33 +474,37 @@ form {
             top: 13.5rem;
             right: -10rem;
         }
-}
-#contactForm {
-.formWrapper {
-.techBox {
-    width: 100%;
-    font-family: 'Cabin', sans-serif;
-    color: white;
-    padding-left: 25px;
-                }
+    }
+
+    #contactForm {
+        .formWrapper {
+            .techBox {
+                width: 100%;
+                font-family: 'Cabin', sans-serif;
+                color: white;
+                padding-left: 25px;
+            }
+
             .formText {
-                    margin: 0 auto;
-                    padding: 1rem;
-                    width: 100%;
-             }
-             ul {
+                margin: 0 auto;
+                padding: 1rem;
+                width: 100%;
+            }
+
+            ul {
                 line-height: 2rem;
             }
-            }
         }
+    }
 
-        .footerWrapper
-        { .copyright {
+    .footerWrapper {
+        .copyright {
             margin-left: 2rem;
         }
+
         .icons {
             margin-right: 2rem;
         }
     }
-    
+
 }
