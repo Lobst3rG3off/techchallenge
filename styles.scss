@@ -24,7 +24,7 @@ a {
 
 
 nav, section {
-    border: 1px solid red;
+    
 }
 
 .flickity-page-dots .dot.is-selected {
@@ -97,7 +97,7 @@ h2{
         .heroText {
             width: 40%;
             height: 48%;
-            border: 1px solid blue;
+             
             background: white;
             position: absolute;
             top: 29%;
@@ -164,7 +164,7 @@ h2{
     }
 
     .imageBox{
-        border: 1px solid red;
+         
         max-width: 50%;
         width: 50%;
         padding: 5% 10%;
@@ -185,14 +185,14 @@ h2{
     }
 
     .dateBox {
-        border: 1px solid purple;
+         
       width: 5rem; 
       height: 1rem;
       position: absolute;
       top: 15.5rem;
     right: 6rem;
         p {
-            border: 1px solid brown;
+            
             background: red;
             color: white;
         }
@@ -207,7 +207,7 @@ h2{
         }
          .techBox{
                 width: 33.3%;
-                border: 1px solid yellow;
+               
                 font-family: 'Cabin', sans-serif;
                 color: white;
                 padding-left: 75px;
@@ -227,7 +227,7 @@ h2{
             text-decoration: none;
             font-size: 14px;
             text-transform: uppercase;
-            border: 1px solid yellow;
+            
             padding-left: 44px;
             a {
                 color: white;
@@ -237,7 +237,7 @@ h2{
         form {
             width: 100%;
             color: white;
-            border: 1px solid yellow;
+        
 
         input {
             width: 100%;
@@ -260,7 +260,7 @@ h2{
         display: flex;
         flex-direction: row;
         background: rgb(18, 20, 20);
-        border: 1px solid orchid;
+       
         color: white;
         justify-content: space-around;
         align-content: center;
@@ -272,173 +272,172 @@ h2{
             letter-spacing: 0.25rem;
         }
     }
-// /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 768px) {
-    .wrapper {
-        max-width: 786px;
-        margin: 0 auto;
-    }
+// // /* Medium devices (landscape tablets, 768px and up) */
+// @media only screen and (max-width: 768px) {
+//     .wrapper {
+//         max-width: 786px;
+//         margin: 0 auto;
+//     }
     
 
 
-    #heroImage .heroText {
-        width: 35%;
-        height: 82%;
-        border: 1px solid blue;
-        background: white;
-        position: absolute;
-        top: 16%;
-        bottom: 0;
-        left: 19%;
-        right: 0;
-        text-align: center;
-        padding: 10px;
-        line-height: 2rem;
-        padding: 0 2rem;
-        display: inline-block;
-        h2 {
-            padding: 1rem;
-            text-align: center;
-            font-size: 2rem;
-            margin: 0%;
-        }
-    }
+//     #heroImage .heroText {
+//         width: 35%;
+//         height: 82%;
+//     
+//         background: white;
+//         position: absolute;
+//         top: 16%;
+//         bottom: 0;
+//         left: 19%;
+//         right: 0;
+//         text-align: center;
+//         padding: 10px;
+//         line-height: 2rem;
+//         padding: 0 2rem;
+//         display: inline-block;
+//         h2 {
+//             padding: 1rem;
+//             text-align: center;
+//             font-size: 2rem;
+//             margin: 0%;
+//         }
+//     }
 
-        #gallery {
-            .galleryBox {
-                flex-direction: column;
-                border: 1px solid green;
-                padding-bottom: 2rem;
+//         #gallery {
+//             .galleryBox {
+//                 flex-direction: column;
+//             
+//                 padding-bottom: 2rem;
 
-                .imageBox {
-                    border: 1px solid red;
-                    max-width: 50%;
-                    width: 50%;
-                    padding: 5% 26%;
-                    position: relative;
-                }
+//                 .imageBox {
+//               
+//                     max-width: 50%;
+//                     width: 50%;
+//                     padding: 5% 26%;
+//                     position: relative;
+//                 }
 
-                .dateBox {
-                    border: 1px solid purple;
-                    width: 5rem;
-                    height: 1rem;
-                    position: absolute;
-                    top: 14.5rem;
-                    right: -11rem;
-                }
-            }
-        }
+//                 .dateBox {
+//      
+//                     width: 5rem;
+//                     height: 1rem;
+//                     position: absolute;
+//                     top: 14.5rem;
+//                     right: -11rem;
+//                 }
+//             }
+//         }
 
-        #contactForm .formWrapper {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-orient: horizontal;
-            -webkit-box-direction: normal;
-            -ms-flex-direction: row;
-            flex-direction: column;
-            -webkit-box-pack: space-evenly;
-            -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-            align-items: center;
-            padding-top: 1rem;
-             ul {
-                width: 20.33%;
-                list-style: none;
-                text-decoration: none;
-                font-size: 14px;
-                text-transform: uppercase;
-                border: 1px solid yellow;
-                padding-left: 0px;
-            }
-        .techBox {
-                width: 33.3%;
-                border: 1px solid yellow;
-                font-family: 'Cabin', sans-serif;
-                color: white;
-                padding-left: 25px;
-            }
-         .formText {
-                margin: 0 auto;
-                padding: 1rem;
-            }
-            button {
-                background: red;
-                font-family: 'Cabin', sans-serif;
-                color: white;
-                text-transform: uppercase;
-                width: 100%;
-                padding: 10px 7px;
-            }
+//         #contactForm .formWrapper {
+//             display: -webkit-box;
+//             display: -ms-flexbox;
+//             display: flex;
+//             -webkit-box-orient: horizontal;
+//             -webkit-box-direction: normal;
+//             -ms-flex-direction: row;
+//             flex-direction: column;
+//             -webkit-box-pack: space-evenly;
+//             -ms-flex-pack: space-evenly;
+//             justify-content: space-evenly;
+//             align-items: center;
+//             padding-top: 1rem;
+//              ul {
+//                 width: 20.33%;
+//                 list-style: none;
+//                 text-decoration: none;
+//                 font-size: 14px;
+//                 text-transform: uppercase;
+//
+//                 padding-left: 0px;
+//             }
+//         .techBox {
+//                 width: 33.3%;
+//  
+//                 font-family: 'Cabin', sans-serif;
+//                 color: white;
+//                 padding-left: 25px;
+//             }
+//          .formText {
+//                 margin: 0 auto;
+//                 padding: 1rem;
+//             }
+//             button {
+//                 background: red;
+//                 font-family: 'Cabin', sans-serif;
+//                 color: white;
+//                 text-transform: uppercase;
+//                 width: 100%;
+//                 padding: 10px 7px;
+//             }
 
-        }
+//         }
          
-}
+// }
 
-//     /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 420px) {
-    .wrapper {
-        max-width: 420px;
-        margin: 0 auto;
-    }
+// //     /* Extra small devices (phones, 600px and down) */
+// @media only screen and (max-width: 420px) {
+//     .wrapper {
+//         max-width: 420px;
+//         margin: 0 auto;
+//     }
 
-    #heroImage { 
-    .heroText {
-        width: 35%;
-        height: 82%;
-        border: 1px solid blue;
-        background: white;
-        position: absolute;
-        top: 16%;
-        bottom: 0;
-        left: 19%;
-        right: 0;
-        text-align: center;
-        padding: 10px;
-        line-height: 0.85rem;
-        padding: 0 2rem;
-        display: inline-block;
-        h2 {
-            padding: 1rem;
-            text-align: center;
-            font-size: 1rem;
-            margin: 0%;
-        }
-    }
+//     #heroImage { 
+//     .heroText {
+//         width: 35%;
+//         height: 82%;
+//    
+//         background: white;
+//         position: absolute;
+//         top: 16%;
+//         bottom: 0;
+//         left: 19%;
+//         right: 0;
+//         text-align: center;
+//         padding: 10px;
+//         line-height: 0.85rem;
+//         padding: 0 2rem;
+//         display: inline-block;
+//         h2 {
+//             padding: 1rem;
+//             text-align: center;
+//             font-size: 1rem;
+//             margin: 0%;
+//         }
+//     }
     
-}
+// }
 
-    #gallery .galleryBox {
-     .imageBox {
-            border: 1px solid red;
-            max-width: 50%;
-            width: 50%;
-            padding: 5% 1%;
-            position: relative;
-        }
-        .dateBox {
-            border: 1px solid purple;
-            width: 5rem;
-            height: 1rem;
-            position: absolute;
-            top: 13.5rem;
-            right: -10rem;
-        }
-}
-#contactForm {
-.formWrapper {
-.techBox {
-    width: 100%;
-    border: 1px solid yellow;
-    font-family: 'Cabin', sans-serif;
-    color: white;
-    padding-left: 25px;
-                }
-            .formText {
-                    margin: 0 auto;
-                    padding: 1rem;
-                    width: 100%;
-             }
-            }
-        }
-}
+//     #gallery .galleryBox {
+//      .imageBox {
+//   
+//             max-width: 50%;
+//             width: 50%;
+//             padding: 5% 1%;
+//             position: relative;
+//         }
+//         .dateBox {
+
+//             width: 5rem;
+//             height: 1rem;
+//             position: absolute;
+//             top: 13.5rem;
+//             right: -10rem;
+//         }
+// }
+// #contactForm {
+// .formWrapper {
+// .techBox {
+//     width: 100%;
+//     font-family: 'Cabin', sans-serif;
+//     color: white;
+//     padding-left: 25px;
+//                 }
+//             .formText {
+//                     margin: 0 auto;
+//                     padding: 1rem;
+//                     width: 100%;
+//              }
+//             }
+//         }
+// }

@@ -235,10 +235,6 @@ a {
   font-weight: 700;
 }
 
-nav, section {
-  border: 1px solid red;
-}
-
 .flickity-page-dots .dot.is-selected {
   display: none;
 }
@@ -322,7 +318,6 @@ nav, section {
 #heroImage .heroText {
   width: 40%;
   height: 48%;
-  border: 1px solid blue;
   background: white;
   position: absolute;
   top: 29%;
@@ -387,7 +382,6 @@ p {
 }
 
 .imageBox {
-  border: 1px solid red;
   max-width: 50%;
   width: 50%;
   padding: 5% 10%;
@@ -409,7 +403,6 @@ p {
 }
 
 .dateBox {
-  border: 1px solid purple;
   width: 5rem;
   height: 1rem;
   position: absolute;
@@ -418,7 +411,6 @@ p {
 }
 
 .dateBox p {
-  border: 1px solid brown;
   background: red;
   color: white;
 }
@@ -433,7 +425,6 @@ p {
 
 #contactForm .techBox {
   width: 33.3%;
-  border: 1px solid yellow;
   font-family: 'Cabin', sans-serif;
   color: white;
   padding-left: 75px;
@@ -462,7 +453,6 @@ p {
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
-  border: 1px solid yellow;
   padding-left: 44px;
 }
 
@@ -474,7 +464,6 @@ p {
 #contactForm form {
   width: 100%;
   color: white;
-  border: 1px solid yellow;
 }
 
 #contactForm form input {
@@ -500,7 +489,6 @@ p {
       -ms-flex-direction: row;
           flex-direction: row;
   background: #121414;
-  border: 1px solid orchid;
   color: white;
   -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -518,157 +506,5 @@ p {
   height: 1rem;
   margin-top: 1rem;
   letter-spacing: 0.25rem;
-}
-
-@media only screen and (max-width: 768px) {
-  .wrapper {
-    max-width: 786px;
-    margin: 0 auto;
-  }
-  #heroImage .heroText {
-    width: 35%;
-    height: 82%;
-    border: 1px solid blue;
-    background: white;
-    position: absolute;
-    top: 16%;
-    bottom: 0;
-    left: 19%;
-    right: 0;
-    text-align: center;
-    padding: 10px;
-    line-height: 2rem;
-    padding: 0 2rem;
-    display: inline-block;
-  }
-  #heroImage .heroText h2 {
-    padding: 1rem;
-    text-align: center;
-    font-size: 2rem;
-    margin: 0%;
-  }
-  #gallery .galleryBox {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    border: 1px solid green;
-    padding-bottom: 2rem;
-  }
-  #gallery .galleryBox .imageBox {
-    border: 1px solid red;
-    max-width: 50%;
-    width: 50%;
-    padding: 5% 26%;
-    position: relative;
-  }
-  #gallery .galleryBox .dateBox {
-    border: 1px solid purple;
-    width: 5rem;
-    height: 1rem;
-    position: absolute;
-    top: 14.5rem;
-    right: -11rem;
-  }
-  #contactForm .formWrapper {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: column;
-    -webkit-box-pack: space-evenly;
-    -ms-flex-pack: space-evenly;
-    justify-content: space-evenly;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding-top: 1rem;
-  }
-  #contactForm .formWrapper ul {
-    width: 20.33%;
-    list-style: none;
-    text-decoration: none;
-    font-size: 14px;
-    text-transform: uppercase;
-    border: 1px solid yellow;
-    padding-left: 0px;
-  }
-  #contactForm .formWrapper .techBox {
-    width: 33.3%;
-    border: 1px solid yellow;
-    font-family: 'Cabin', sans-serif;
-    color: white;
-    padding-left: 25px;
-  }
-  #contactForm .formWrapper .formText {
-    margin: 0 auto;
-    padding: 1rem;
-  }
-  #contactForm .formWrapper button {
-    background: red;
-    font-family: 'Cabin', sans-serif;
-    color: white;
-    text-transform: uppercase;
-    width: 100%;
-    padding: 10px 7px;
-  }
-}
-
-@media only screen and (max-width: 420px) {
-  .wrapper {
-    max-width: 420px;
-    margin: 0 auto;
-  }
-  #heroImage .heroText {
-    width: 35%;
-    height: 82%;
-    border: 1px solid blue;
-    background: white;
-    position: absolute;
-    top: 16%;
-    bottom: 0;
-    left: 19%;
-    right: 0;
-    text-align: center;
-    padding: 10px;
-    line-height: 0.85rem;
-    padding: 0 2rem;
-    display: inline-block;
-  }
-  #heroImage .heroText h2 {
-    padding: 1rem;
-    text-align: center;
-    font-size: 1rem;
-    margin: 0%;
-  }
-  #gallery .galleryBox .imageBox {
-    border: 1px solid red;
-    max-width: 50%;
-    width: 50%;
-    padding: 5% 1%;
-    position: relative;
-  }
-  #gallery .galleryBox .dateBox {
-    border: 1px solid purple;
-    width: 5rem;
-    height: 1rem;
-    position: absolute;
-    top: 13.5rem;
-    right: -10rem;
-  }
-  #contactForm .formWrapper .techBox {
-    width: 100%;
-    border: 1px solid yellow;
-    font-family: 'Cabin', sans-serif;
-    color: white;
-    padding-left: 25px;
-  }
-  #contactForm .formWrapper .formText {
-    margin: 0 auto;
-    padding: 1rem;
-    width: 100%;
-  }
 }
 /*# sourceMappingURL=styles.css.map */
