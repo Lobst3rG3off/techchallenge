@@ -424,6 +424,7 @@ form {
     }
     .navLinks {
         flex-direction: column;
+        padding: 0;
     }
 
     #heroImage { 
@@ -452,7 +453,7 @@ form {
   
             max-width: 50%;
             width: 50%;
-            padding: 5% 1%;
+            padding: 5% 3%;
             position: relative;
         }
         .dateBox {
@@ -477,6 +478,19 @@ form {
                     padding: 1rem;
                     width: 100%;
              }
+             ul {
+                line-height: 2rem;
+            }
             }
         }
+
+        .footerWrapper
+        { .copyright {
+            margin-left: 2rem;
+        }
+        .icons {
+            margin-right: 2rem;
+        }
+    }
+    
 }
