@@ -167,6 +167,7 @@ p {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     h2 {
@@ -177,10 +178,6 @@ p {
 }
 
 .imageBox {
-
-    max-width: 50%;
-    width: 50%;
-    padding: 5% 10%;
     position: relative;
 
     a {
@@ -191,26 +188,24 @@ p {
 .imageBoxbottom {
     background: lightgray;
     width: 388px;
-    height: 58%;
     margin-top: -7px;
-    margin-bottom: -40px;
+    margin-bottom: 80px;
     line-height: 1.5rem;
     padding: 1rem;
 }
 
-.dateBox {
-
-    width: 5rem;
-    height: 1rem;
-    position: absolute;
-    top: 15.5rem;
-    right: 6rem;
-
-    p {
-
-        background: red;
-        color: white;
-    }
+    .dateBox {
+        width: 6rem;
+        position: absolute;
+        top: 12rem;
+        right: 2rem;
+    
+        p {
+            background: red;
+            color: white;
+            padding: 1px;
+            text-align: center;
+        }
 }
 
 // contact form
@@ -245,14 +240,12 @@ p {
     }
 
     ul {
-        width: 20.33%;
         list-style: none;
         text-decoration: none;
         font-size: 14px;
         text-transform: uppercase;
-
-        padding-left: 44px;
-
+        padding: 0px;
+    }
         a {
             color: white;
             letter-spacing: 1px;
@@ -282,9 +275,9 @@ p {
         }
 
     }
-}
 
 
+//  footer
 .footerWrapper {
     max-width: 100%;
     display: flex;

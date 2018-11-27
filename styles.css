@@ -377,6 +377,9 @@ p {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 #gallery h2 {
@@ -385,9 +388,6 @@ p {
 }
 
 .imageBox {
-  max-width: 50%;
-  width: 50%;
-  padding: 5% 10%;
   position: relative;
 }
 
@@ -398,24 +398,24 @@ p {
 .imageBoxbottom {
   background: lightgray;
   width: 388px;
-  height: 58%;
   margin-top: -7px;
-  margin-bottom: -40px;
+  margin-bottom: 80px;
   line-height: 1.5rem;
   padding: 1rem;
 }
 
 .dateBox {
-  width: 5rem;
-  height: 1rem;
+  width: 6rem;
   position: absolute;
-  top: 15.5rem;
-  right: 6rem;
+  top: 12rem;
+  right: 2rem;
 }
 
 .dateBox p {
   background: red;
   color: white;
+  padding: 1px;
+  text-align: center;
 }
 
 #contactForm {
@@ -456,33 +456,32 @@ p {
 }
 
 #contactForm ul {
-  width: 20.33%;
   list-style: none;
   text-decoration: none;
   font-size: 14px;
   text-transform: uppercase;
-  padding-left: 44px;
+  padding: 0px;
 }
 
-#contactForm ul a {
+#contactForm a {
   color: white;
   letter-spacing: 1px;
 }
 
-#contactForm ul .columnTop {
+#contactForm .columnTop {
   color: white;
 }
 
-#contactForm form {
+form {
   width: 33.33%;
   color: white;
 }
 
-#contactForm form input {
+form input {
   width: 100%;
 }
 
-#contactForm form button {
+form button {
   background: red;
   font-family: 'Cabin', sans-serif;
   color: white;
